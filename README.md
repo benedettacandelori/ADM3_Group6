@@ -24,16 +24,16 @@ Here a list of the files/folders that are there and their function.
 > 2. The second search engine is based on the output of the first one and in addition it sorts the output Anime on a similarity score between the Anime and the query (cosine similarity).
 > 3. Finally, this search engine 
 
-##### vocabulary.json
+##### * vocabulary.json
 > This is a dictionary that maps each *'processed'* word to a integer.
 
-##### unranked_inverted_index.json
+##### * unranked_inverted_index.json
 > This is a dictionary that contanins for each word of the volabulary a list of Anime that contains that word in the description. We have used it in the fisrt search engine.
 
-##### ranked_inverted_index.json
+##### * ranked_inverted_index.json
 > This is a dictionary that is useful in the second search engine. It contains not only the Anime that contains each word in the description, as the previous one, but also the tf-idf score. 
 
-##### tfidf_vectors.json
+##### * tfidf_vectors.json
 > It is a doctionary that links to each Anime description a dictionary that contains the tf-idf score for all the words in it. 
 > So that, we have vectors of Anime with tf-idf scores (greater than zero) that we have used in computing cosine similarity.
 
