@@ -9,7 +9,7 @@ Here a list of the files/folders that are there and their function.
 > 
 > Specifically we used them to get all the links from the list of Anime and then to scrape the collected web pages which have been stored in files called `article.html`. Moreover, there is a function that creates one file with extention `tsv` for each *article.htlm* which contanins some imformations about the anime and its popularity, such as the title, the type, dates of release and end, characters and more over.
 >
-> Due the number of the Anime that we have to analyze, these files (`article.html` and `anime.tsv`) have been organized in different [pages](https://www.dropbox.com/sh/438cskrhjvsiu7b/AACmUnbGSLzRo-KMa0BKocXGa?dl=0).
+> Due the number of the Anime that we have to analyze, these files (`anime.tsv`) have been organized in different [pages](https://www.dropbox.com/sh/yj17csp9f630rf8/AACfnQne-eRctns0bXaXE7q6a?dl=0).
  
 
 ##### * linksfile.txt
@@ -23,6 +23,9 @@ Here a list of the files/folders that are there and their function.
 > 1. It is the basic one. Its purpose is to select the Anime that have all the words of the query in their description.
 > 2. The second search engine is based on the output of the first one and in addition it sorts the output Anime on a similarity score between the Anime and the query (cosine similarity).
 > 3. Finally, this search engine is a bit more complex then the other ones. It searches among descriptions and title and the selected Anime are not sorted based only on tf-idf score but on a new score that considers the popularity rank, the score and the Anime Type. 
+
+### * Dictionary
+A folder which includes some helpful dictionaries for search engine.
 
 ##### * vocabulary.json
 > This is a dictionary that maps each *'processed'* word to a integer.
