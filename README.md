@@ -70,7 +70,10 @@ Here a list of the files/folders that are there and their function.
 > 10.  all_reviews.tsv
 > 
 > It is a dataset that contains the first five reviews for each anime (actually about the first 500 characters of each review). Each line is associated to an anime and the reviews are tab-separated.
-
+> 
+> 11. review_sentiment_dict.txt
+> 
+> It is the representation of the the dictionary that contains the anime id as key and the couple (number of positive reviews, number of negative reviews)
  - **ADM-HW3.ipynb**
  > It is a python notebook that contains 5 main sections, one for the data collection, one for search engines.
 
