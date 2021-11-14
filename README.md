@@ -22,7 +22,7 @@ Here a list of the files/folders that are there and their function.
 > In this script there are some functions that we used to preprocess the description of the anime, to crete some useful dictionary and to implement three different search engine, given a query.
 > 1. It is the basic one. Its purpose is to select the Anime that have all the words of the query in their description.
 > 2. The second search engine is based on the output of the first one and in addition it sorts the output Anime on a similarity score between the Anime and the query (cosine similarity).
-> 3. Finally, this search engine is a bit more complex then the other ones. It searches among descriptions and title and the selected Anime are not sorted based only on tf-idf score but the ranking considers the popularity rank, the score and the Anime Type. 
+> 3. Finally, this search engine is a bit more complex then the other ones. It searches among descriptions and title and the selected Anime are not sorted based only on tf-idf score but on a new score that considers the popularity rank, the score and the Anime Type. 
 
 ##### * vocabulary.json
 > This is a dictionary that maps each *'processed'* word to a integer.
