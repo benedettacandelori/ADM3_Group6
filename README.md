@@ -74,6 +74,4 @@ Here a list of the files/folders that are there and their function.
  - **ADM-HW3.ipynb**
  > It is a python notebook that contains 5 main sections, one for the data collection, one for search engines.
 
-prova contributor
-
 
