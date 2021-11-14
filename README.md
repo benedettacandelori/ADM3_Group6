@@ -4,7 +4,7 @@ In this repository, you can find all you need to implement a search engine over 
 
 Here a list of the files/folders that are there and their function.
 
-##### * data_collection.py
+##### - data_collection.py
 > It is a python script which contains the functions that are needed to collect our data for the search engine. 
 > 
 > Specifically we used them to get all the links from the list of Anime and then to scrape the collected web pages which have been stored in files called `article.html`. Moreover, there is a function that creates one file with extention `tsv` for each *article.htlm* which contanins some imformations about the anime and its popularity, such as the title, the type, dates of release and end, characters and more over.
@@ -12,19 +12,19 @@ Here a list of the files/folders that are there and their function.
 > Due the number of the Anime that we have to analyze, these files (`anime.tsv`) have been organized in different [pages](https://www.dropbox.com/sh/yj17csp9f630rf8/AACfnQne-eRctns0bXaXE7q6a?dl=0).
  
 
-##### * linksfile.txt
+##### - linksfile.txt
 > It contains the links of all the Anime in the list.
 
-##### * tsv_management.py
+##### -  tsv_management.py
 > This script contains some useful functions which we used to manipulate easily our data from `anime.tsv` files.
 
-##### * search_engine.py
+##### -  search_engine.py
 > In this script there are some functions that we used to preprocess the description of the anime, to crete some useful dictionary and to implement three different search engine, given a query.
 > 1. It is the basic one. Its purpose is to select the Anime that have all the words of the query in their description.
 > 2. The second search engine is based on the output of the first one and in addition it sorts the output Anime on a similarity score between the Anime and the query (cosine similarity).
 > 3. Finally, this search engine is a bit more complex then the other ones. It searches among descriptions and title and the selected Anime are not sorted based only on tf-idf score but on a new score that considers the popularity rank, the score and the Anime Type. 
 
-### * Dictionary
+### -  Dictionary
 A folder which includes some helpful dictionaries for search engine.
 
 ##### * vocabulary.json
