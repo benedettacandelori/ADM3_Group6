@@ -35,7 +35,12 @@ Here a list of the files/folders that are there and their function.
 
 ##### * tfidf_vectors.json
 > It is a doctionary that links to each Anime description a dictionary that contains the tf-idf score for all the words in it. 
-> So that, we have vectors of Anime with tf-idf scores (greater than zero) that we have used in computing cosine similarity.
+> So that, we have vectors of Anime with tf-idf scores (greater than zero) that we have used for compute cosine similarity.
+
+
+
+##### * 
+
 
 
 
