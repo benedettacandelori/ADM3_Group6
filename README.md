@@ -24,7 +24,7 @@ Here a list of the files/folders that are there and their function.
 > 2. The second search engine is based on the output of the first one and in addition it sorts the output Anime on a similarity score between the Anime and the query (cosine similarity).
 > 3. Finally, this search engine is a bit more complex then the other ones. It searches among descriptions and title and the selected Anime are not sorted based only on tf-idf score but on a new score that considers the popularity rank, the score and the Anime Type. 
 
-- **Dictionary**
+- **content**
 > A folder which includes some helpful dictionaries for search engine. There are:
 >
 > 1. vocabulary.json
