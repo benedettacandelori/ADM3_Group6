@@ -324,7 +324,7 @@ def load_all_txt():
     return(all_the_reviews)
 
 
-def merge_txt(tsvname = 'content/all_reviews.txt'):
+def merge_txt(tsvname = 'content/all_reviews.tsv'):
     '''
     here we merge all the txt files in one file for better file management
     (as it is hard to move multiple smaller files around)
@@ -340,7 +340,7 @@ def merge_txt(tsvname = 'content/all_reviews.txt'):
     return
 
 
-def load_all_reviews(tsvname = 'content/all_reviews.txt'):
+def load_all_reviews(tsvname = 'content/all_reviews.tsv'):
     '''
     return a list that contains the list of reviews associated to every anime
     '''
